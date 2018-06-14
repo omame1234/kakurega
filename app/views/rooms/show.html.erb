@@ -1,0 +1,30 @@
+<!-- 部屋の名称を表示します -->
+<div class="room-name"><%= @room.name %></div>
+
+<!-- 部屋に紐づけられた投稿を表示します -->
+<div class="main-posts-index">
+    <div class="container">
+      <% @posts.each do |post| %>
+        <div class="post1-index">
+          <div class="the-date"><%= post.created_at  %></div>
+          <div class="comment"><%= post.content %></div>
+          <a class="reply" href="">コメントに返信</a>
+        </div>
+      <% end %>
+    </div>
+  
+
+<!-- 投稿をするテキストボックスを表示します -->
+
+
+<fieldset>
+<legend>新規投稿</legend>
+<%= form_tag("/rooms/#{@room.id}/newpost") do %>
+    <textarea name="content" cols=40 rows=10  >
+    </textarea>
+    <input type="submit" value = "投稿">
+<% end %>
+</fieldset>
+
+
+

@@ -1,0 +1,42 @@
+.form{
+    text-align: center;
+    margin:50px;
+    padding:50px 10px;
+    border:5px solid #2196F3;
+    background-color: white;
+}
+
+.form3{
+    position: relative;
+}
+
+.form1{
+    
+    margin:10px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 152, 0.43);/*アイコン色*/
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+    background-image: linear-gradient(#e8e8e8 0%, #d6d6d6 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: inset 0 4px 0 rgba(255,255,255,0.5), 0 2px 2px rgba(0, 0, 0, 0.19);
+    border-bottom: solid 2px #b5b5b5;
+}
+ 
+.form1:hover{
+    opacity:0.9;
+}
+
+.key{
+    color:gray;
+    margin: 0 10px;
+}

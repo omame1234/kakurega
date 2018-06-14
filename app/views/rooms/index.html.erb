@@ -1,0 +1,11 @@
+<h1 class="block1">部屋の一覧</h1>
+
+<!-- これは部屋を一覧表示するのに使います -->
+<div class="lin"><% @rooms.each do |room| %>
+
+    <div class="line">
+    <div class="kasenn"><%= link_to(room.name,"/rooms/#{room.id}/login") %></div></div>
+<% end %>
+</div>
+
+

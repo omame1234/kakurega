@@ -1,0 +1,13 @@
+<!-- これは部屋の新規作成をします -->
+<div class="form">
+    <%= form_for(@room, url:{controller:'rooms',action:'create'}) do |f| %>
+        <div class="form3">
+        <%= f.label :部屋の名前 %>
+        <%= f.text_field :name , :size => '40', :placeholder => "新しく作成する部屋の名前を入力してください" %>
+        <br><i class="fas fa-lock fa-2x key"></i><%= f.label :部屋の鍵 %>
+        <%= f.text_field :key , :size => '40', :placeholder => "新しく作成する部屋の鍵を入力してください" %>
+        </div>
+        <br><%= f.submit "作成" , class: 'form1' %>
+    <% end %>
+</div>
+

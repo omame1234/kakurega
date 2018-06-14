@@ -1,0 +1,33 @@
+.room-name{
+    font-size:20pt;
+    font-weight: normal;
+    border:1px solid  #84a2d4; 
+    background-color:#007bbb;
+    box-shadow: 0 1px 3px rgba(0,0,200,0.5);
+    margin:10px 10px 0;
+    color:white;
+}
+
+.main-posts-index{
+    
+    margin:0px 10px 10px ;
+    padding: 0 10px 10px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+
+
+.post1-index{
+    border-bottom:4px dotted gray;
+}
+
+.the-date{
+    text-align:left;
+    color:gray;
+}
+
+.comment{
+    text-align:left;
+
+}

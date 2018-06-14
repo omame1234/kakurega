@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kakurega</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    
+      
+          <h1 class="tit"><a class="hi" href="/home/top">隠れ家</a></h1>
+    <header class="header">
+
+      <% if flash[:notice] %>
+        <%= flash.now[:notice] %>
+      <% end %>
+      
+      <div class="buttons">
+        <a class="button button1" href="/rooms/new">部屋の作成</a>
+        
+        <a class="button button3" href="/rooms/login">部屋に入る</a>
+        <a class="button button4" href="/rooms/index">部屋一覧</a>
+      </div>
+    </header>
+
+
+    <%= yield %>
+  </body>
+</html>

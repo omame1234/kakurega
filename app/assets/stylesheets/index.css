@@ -1,0 +1,26 @@
+h1.block1{
+    font-weight: normal;
+    border:1px solid  #84a2d4; 
+    background-color:gray;
+    box-shadow: 0 1px 3px rgba(0,0,200,0.5);
+    margin:10px 10px 0;
+    color:white;
+}
+
+.lin{
+    margin:0px 10px 10px ;
+    padding: 0 0 10px;
+    border: solid 1px gray;
+    background-color: white;
+}
+
+.line{
+    margin:0px 10px;
+    font-family: "Sawarabi Gothic"; 
+    border-bottom: solid 1px #84a2d4; 
+    padding:20px 10px;
+    font-size:1.5em;
+    
+
+}
+
